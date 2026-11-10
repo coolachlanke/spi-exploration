@@ -1,0 +1,38 @@
+# Temporary Files
+fp-info-cache
+*-backups
+_autosave*
+\#auto_saved_files\#
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.lck
+.history/
+
+# Local project settings
+*.kicad_prl
+
+# Configurations
+fp-lib-table
+sym-lib-table
+
+# Plugins
+fabrication-toolkit-options.json
+
+# System Files
+desktop.ini
+
+#settings
+.settings/
+
+#metadata
+.metadata/
+
+# Build folders
+Debug*
+Release*
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
