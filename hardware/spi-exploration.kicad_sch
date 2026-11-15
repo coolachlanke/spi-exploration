@@ -3496,7 +3496,7 @@
 							)
 						)
 					)
-					(number "SH"
+					(number "S1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15151,6 +15151,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x07_Pin")
+		(at 231.14 127 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c232196e-5ff4-4bc4-973f-7806734350db")
+		(property "Reference" "J2"
+			(at 227.33 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x07_Pin"
+			(at 219.71 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
+			(at 231.14 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated"
+			(at 231.14 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a063fd66-4ce8-4ef4-a142-020b8b680f9e")
+		)
+		(pin "1"
+			(uuid "65f631b3-8550-40b7-a22b-34057edcae25")
+		)
+		(pin "3"
+			(uuid "f0b39bf7-9a03-4b51-9e14-1ef588e44073")
+		)
+		(pin "7"
+			(uuid "8d3aa446-4ee8-43d2-9226-88fb77fa00ca")
+		)
+		(pin "4"
+			(uuid "84f82f2e-9fb8-4a78-9293-614fe6e06ec7")
+		)
+		(pin "5"
+			(uuid "17420913-314a-4624-89cd-370a9d9af867")
+		)
+		(pin "6"
+			(uuid "b9b518fa-e5e4-43b9-8a44-078e88db3c39")
+		)
+		(instances
+			(project "spi-exploration"
+				(path "/e3948f27-c10b-44de-80e3-15b1a4946738"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 55.88 193.04 0)
 		(unit 1)
@@ -16156,103 +16252,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x07_Pin")
-		(at 231.14 127 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e44fd95f-f8da-414e-b05b-621de8c612df")
-		(property "Reference" "J2"
-			(at 227.33 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x07_Pin"
-			(at 219.71 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
-			(at 231.14 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 231.14 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "425da481-dc0e-4bc5-852a-8f3de5cd59d6")
-		)
-		(pin "1"
-			(uuid "75b793db-55d7-4e09-9d69-aafa7759c618")
-		)
-		(pin "3"
-			(uuid "11202ba7-6fc8-42fe-9629-767861ad741b")
-		)
-		(pin "7"
-			(uuid "60231d54-22c5-48d1-ba90-a1c249598b11")
-		)
-		(pin "4"
-			(uuid "3609a46d-3383-46aa-9c85-8175fa41a637")
-		)
-		(pin "5"
-			(uuid "9e534b38-1bea-46fb-ba0f-de7bc9f140dc")
-		)
-		(pin "6"
-			(uuid "573a0e61-8161-4c4d-92da-5ba3cb89df51")
-		)
-		(instances
-			(project "spi-exploration"
-				(path "/e3948f27-c10b-44de-80e3-15b1a4946738"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "libs:BME280")
 		(at 229.87 88.9 0)
 		(unit 1)
@@ -16614,7 +16613,7 @@
 		(pin "B8"
 			(uuid "de4100ab-e488-4bf0-a673-7bb9e8fcac33")
 		)
-		(pin "SH"
+		(pin "S1"
 			(uuid "ad68b2b1-f6cf-437b-9173-77069817fa96")
 		)
 		(pin "B12"

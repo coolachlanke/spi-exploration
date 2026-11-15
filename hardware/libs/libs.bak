@@ -2764,7 +2764,7 @@
 				)
 			)
 		)
-		(property "Value" "XC6206P332MR"
+		(property "Value" "XC6206P332MR-G"
 			(at 0 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
